@@ -7,5 +7,5 @@ def loop_message_five_times(string)
 end
 
 def loop_message_n_times(string, integer)
-  puts string * integer
+  integer.times{puts string}
 end 
